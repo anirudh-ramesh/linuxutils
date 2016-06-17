@@ -1,0 +1,169 @@
+cmem.lo: cmem.c \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/getopt.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/mman.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mman.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/stat.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stat.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/ioctl.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/ioctls.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/ioctls.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/ioctl.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/ioctl.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/ioctl-types.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/ttydefaults.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/fcntl.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+ /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+ ../../../include/ti/cmem.h
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/unistd.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/confname.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/getopt.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/mman.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mman.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/stat.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stat.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/ioctl.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/ioctls.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/ioctls.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/ioctl.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/ioctl.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/ioctl-types.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/ttydefaults.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/fcntl.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+../../../include/ti/cmem.h:

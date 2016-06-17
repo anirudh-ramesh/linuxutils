@@ -1,91 +1,97 @@
 translate.o: translate.c \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
- /db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/stdio.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/features.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/predefs.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/cdefs.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/wordsize.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/gnu/stubs.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stddef.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/types.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/typesizes.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/libio.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/_G_config.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/wchar.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stdarg.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/stdio_lim.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/sys_errlist.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/stdio.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/stdlib.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitflags.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitstatus.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/endian.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/endian.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/byteswap.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/types.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/time.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/select.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/select.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/sigset.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/time.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/sysmacros.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/pthreadtypes.h \
+ /usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/alloca.h \
  ../../../include/ti/cmem.h
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/stdio.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/features.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/predefs.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/cdefs.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/wordsize.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/gnu/stubs.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h:
+/usr/bin/arago-2011.09/armv5te/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stddef.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/types.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/typesizes.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/libio.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/_G_config.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/wchar.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h:
+/usr/bin/arago-2011.09/armv5te/bin/../lib/gcc/arm-arago-linux-gnueabi/4.5.3/include/stdarg.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/stdio_lim.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/sys_errlist.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/stdio.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/stdlib.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitflags.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/waitstatus.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/endian.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/endian.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/byteswap.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/types.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/time.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/select.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/select.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/sigset.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/time.h:
 
-/db/toolsrc/library/vendors2005/cs/arm/arm-2010q1/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/sys/sysmacros.h:
+
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/bits/pthreadtypes.h:
+
+/usr/bin/arago-2011.09/armv5te/bin/../arm-arago-linux-gnueabi/usr/include/alloca.h:
 
 ../../../include/ti/cmem.h:
